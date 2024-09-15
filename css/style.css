@@ -862,7 +862,7 @@ body {
 }
 
 .card-container.show {
-  max-height: 500px;
+  max-height: 800px;
   opacity: 1;
 }
 
