@@ -284,6 +284,9 @@ body {
 
 /* quran */
 .quran {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/padangornament.webp"), linear-gradient(180deg,#fae1aa 0%, #cb9453 100%) !important;
   padding: 7rem 7% 1.4rem;
 }
 
@@ -305,7 +308,7 @@ body {
 .quran .row .content h3 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: var(--gray-100);
+  color: #fff;
   font-weight: 700;
   font-style: italic;
   font-family: power, sans-serif;
@@ -313,14 +316,26 @@ body {
 .quran .row .content p {
   font-size: 1.4rem;
   margin-bottom: 0.8rem;
-  color: var(--gray-50);
+  color: #fff;
   font-family: "Poppins", Sans-serif;
   font-weight: normal;
   font-style: italic;
 }
 /* about */
 .about {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/sasha-blur.jpg"), linear-gradient(180deg,#860003 0%,#860003 100%) !important;
   padding: 7rem 7% 1.4rem;
+}
+
+.about h2 {
+  font-size: 5rem;
+  font-family: power;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .about .row {
@@ -342,7 +357,7 @@ body {
 .about .row .content {
   flex: 1 1 35rem;
   padding: 10rem 2rem;
-  color: var(--dark-75);
+  color: #fff;
 }
 .about .row .content h3 {
   font-size: 4rem;
@@ -379,8 +394,10 @@ body {
 
 /* about2 */
 .about2 {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/deki-blur.jpg"), linear-gradient(180deg,#860003 0%,#860003 100%) !important;
   padding: 7rem 7% 1.4rem;
-  background-image: linear-gradient(to top, rgba(93, 100, 111, 0.3), rgba(255, 255, 255, 0.5));
 }
 
 .about2 .row {
@@ -403,7 +420,7 @@ body {
 .about2 .row .content {
   flex: 1 1 35rem;
   padding: 10rem 2rem;
-  color: var(--dark-75);
+  color: #fff;
 }
 .about2 .row .content h3 {
   font-size: 4rem;
@@ -430,6 +447,12 @@ body {
 /* story */
 
 .story {
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/padangornament.webp"), linear-gradient(180deg, #fae1aa 0%, #cb9453 100%) !important;
+  /* background-image: url("../images/padangornament.webp"), linear-gradient(180deg,#860003 0%,#860003 100%) !important; */
   padding: 7rem 7% 1.4rem;
 }
 
@@ -437,7 +460,7 @@ body {
   font-size: 5rem;
   font-family: power;
   text-align: center;
-  color: var(--dark-75);
+  color: #000;
   font-weight: normal;
   font-style: italic;
 }
@@ -449,14 +472,14 @@ body {
 
 .story .part h3 {
   font-size: 2.1rem;
-  color: var(--dark-75);
+  color: #000;
   font-weight: 600;
   margin: 2rem;
 }
 
 .story .part p {
   font-size: 1.5rem;
-  color: var(--dark-75);
+  color: #000;
   font-weight: 400;
   margin: 1rem;
   letter-spacing: 0.5px;
@@ -464,7 +487,7 @@ body {
 
 /* event */
 .bg-event {
-  background-image: url("../images/bg-event.jpg");
+  background-image: url("../images/hero/hero1.jpg");
   background-size: cover;
   overflow-x: hidden;
 }
@@ -473,21 +496,24 @@ body {
 }
 
 .event h2 {
-  font-size: 6rem;
-  color: var(--warning);
-  font-family: var(--explora);
-  font-weight: 200;
+  font-size: 5dvh;
+  font-family: power;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
   /* text-align: center; */
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   margin-bottom: 2rem;
 }
-.event h2::after {
+
+/* .event h2::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid var(--warning);
   width: 45%;
-}
+} */
 
 .event .card {
   display: flex;
@@ -773,23 +799,31 @@ body {
 
 /* Gallery */
 .gallery {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/padangornament.webp"), linear-gradient(180deg,#fae1aa 0%, #cb9453 100%) !important;
+  /* background-image: url("../images/padangornament.webp"), linear-gradient(180deg,#860003 0%,#860003 100%) !important; */
   padding: 7rem 7% 1.4rem;
 }
+
 .gallery h2 {
-  font-size: 6rem;
-  color: var(--dark-100);
-  font-family: var(--explora);
-  font-weight: 200;
+  font-size: 5rem;
+  font-family: power;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
   margin-bottom: 2rem;
 }
-.gallery h2::after {
+
+/* .gallery h2::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid var(--dark-100);
   width: 50%;
-}
+} */
 
 .gallery .container .img-gallery {
   display: grid;
@@ -812,15 +846,17 @@ body {
 
 /* Gift */
 .gift {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/gift.jpg"), linear-gradient(180deg,#cb9453 0%, #860003 100%) !important;
   padding: 7rem 7%;
-  background-image: linear-gradient(to top, rgba(93, 100, 111, 0.3), rgba(255, 255, 255, 0.3));
 }
 
 .gift h2 {
   font-size: 5rem;
   font-family: power;
   text-align: center;
-  color: var(--dark-75);
+  color: #fff;
   font-weight: normal;
   font-style: italic;
   margin-bottom: 3rem;
@@ -830,7 +866,8 @@ body {
   max-width: 40rem;
   margin: auto;
   font-size: 1.4rem;
-  color: var(--dark-75);
+  color: #000;
+  text-shadow: #fff 1px 0 10px;
   margin-bottom: 4rem;
   /* line-height: 1.5rem; */
 }
@@ -940,16 +977,27 @@ body {
 .salin i {
   margin-right: 0.7rem;
 }
+
 /* RSVP */
 .rsvp {
-  padding: 7rem 7% 5rem;
-  background-color: var(--bg);
+  background: #cb9453;
+  padding: 7rem 7% 1.4rem;
   position: relative;
+}
+
+.rsvp h2 {
+  font-size: 5rem;
+  font-family: power;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 2rem;
 }
 
 .rsvp .row {
   display: flex;
-  margin-top: -2rem;
+  margin-top: 2rem;
 }
 .rsvp .row .rsvp-img {
   flex: 1 1 45rem;
@@ -962,13 +1010,18 @@ body {
   padding: 4rem 2rem;
   text-align: center;
   /* font-family: analogue; */
-  background-color: var(--bg);
 }
 .rsvp .row .message form .input-group {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--gray-50);
-  padding: 1.5rem 0;
+  border: 3px solid #555;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .rsvp .row .message form .input-group input,
 .rsvp .row .message form .input-group select {
@@ -1024,20 +1077,20 @@ body {
 }
 .rsvp .message .container-card .title {
   font-size: 1.7rem;
-  color: var(--dark-100);
+  color: #fff;
   font-weight: 400;
   margin-top: 1rem;
 }
 .rsvp .message .container-card h4 {
   font-size: 1.2rem;
-  color: var(--gray-50);
+  color: #fff;
   font-weight: 400;
 }
 .rsvp .message .container-card p {
   font-size: 1.2rem;
   letter-spacing: 0.5px;
   margin-top: 0.5rem;
-  color: var(--dark-100);
+  color: #fff;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--dark-75);
 }
@@ -1107,9 +1160,11 @@ body {
 
 /* footer */
 footer {
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("../images/padangornament.webp"), linear-gradient(180deg, #fae1aa 0%, #cb9453 100%) !important;
   padding: 1.7rem 0;
   text-align: center;
-  margin-top: 5rem;
 }
 
 footer .logo {
@@ -1242,6 +1297,7 @@ footer .credit h5 {
     padding: 0.5rem 1.8rem;
     margin-top: 1rem;
   }
+  
   .about2 {
     padding: 6rem 0;
   }
@@ -1431,3 +1487,16 @@ footer .credit h5 {
     font-size: 52%;
   }
 }
+
+/* Backgroud  */
+/* body, div {
+  height:100%;
+  width:100%;
+  margin:0;
+  position:absolute;
+} */
+
+/* div {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+} */
