@@ -570,7 +570,7 @@ body {
 .event .card .box-date .title-event {
   padding: 1rem 3rem;
   text-align: center;
-  background-color: var(--dark-75);
+  background-color: #860003;
 }
 .event .card .box-date .title-event h3 {
   font-size: 3rem;
@@ -702,7 +702,7 @@ body {
 .event-2 .card .box-date .title-event-2 {
   padding: 1rem 3rem;
   text-align: center;
-  background-color: var(--dark-75);
+  background-color: #860003;
 }
 .event-2 .card .box-date .title-event-2 h3 {
   font-size: 3rem;
